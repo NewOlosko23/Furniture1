@@ -1,0 +1,19 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://shop-12c5.onrender.com/sitemap.xml
+
+# Disallow admin/dashboard areas
+Disallow: /dashboard/
+Disallow: /admin/
+
+# Allow all product pages
+Allow: /product/
+Allow: /category/
+Allow: /browse
+Allow: /contact
+Allow: /cart
+
+# Crawl-delay for respectful crawling
+Crawl-delay: 1
